@@ -1,73 +1,180 @@
-# Welcome to your Lovable project
 
-## Project info
+# TaskFlow - Prioritized To-Do List Application
 
-**URL**: https://lovable.dev/projects/4a04ab53-ea5f-451f-a4ce-8bfcef813fd3
+![TaskFlow Banner](https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400&q=80)
 
-## How can I edit this code?
+A modern, prioritized to-do list application built with React, TypeScript, and Tailwind CSS. TaskFlow helps you organize tasks by priority, estimate time, and stay productive with an intuitive interface.
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+### 🎯 Priority-Based Task Management
+- **Urgent**: Tasks that must be completed today
+- **Important**: Tasks for the next 2-3 days  
+- **Long-term**: Upcoming deadlines and future tasks
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4a04ab53-ea5f-451f-a4ce-8bfcef813fd3) and start prompting.
+### ⏰ Time Management
+- Time estimates for each task (in minutes)
+- Visual time summaries for each priority category
+- Smart filtering by today, this week, or this month
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎨 Modern Interface
+- Beautiful mountain landscape background
+- Glass-morphism design elements
+- Responsive layout for all devices
+- Smooth animations and transitions
 
-**Use your preferred IDE**
+### 📱 Multi-Page Application
+- **Tasks**: Main task management interface
+- **About**: Learn about TaskFlow features
+- **Settings**: Customize your experience
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd <YOUR_PROJECT_NAME>
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to see the application.
+
+## 🛠️ Technology Stack
+
+- **Frontend Framework**: React 18
+- **Type Safety**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **State Management**: React Hooks
+
+## 📖 Usage Guide
+
+### Adding Tasks
+1. Click on the "Add New Task" form on the left side
+2. Fill in the task title (required)
+3. Add an optional description
+4. Select priority level:
+   - 🔴 **Urgent**: Must complete today
+   - 🟡 **Important**: Next 2-3 days
+   - 🟢 **Long-term**: Future deadlines
+5. Set time estimate and due date
+6. Click "Add Task"
+
+### Managing Tasks
+- **Complete**: Click the circle icon to mark as done
+- **Delete**: Click the trash icon to remove
+- **Filter**: Use time filters (Today/Week/Month) at the top
+
+### Navigation
+- **Tasks**: Main task management page
+- **About**: Learn about features and mission
+- **Settings**: Customize notifications, appearance, and defaults
+
+## 🎨 Design Philosophy
+
+TaskFlow follows a clean, modern design approach with:
+- **Glass-morphism**: Translucent elements with backdrop blur
+- **Natural Imagery**: Mountain landscape for calm focus
+- **Color Psychology**: Red for urgent, yellow for important, green for long-term
+- **Accessibility**: High contrast text and intuitive icons
+
+## 🔧 Configuration
+
+### Environment Setup
+No environment variables required for basic functionality.
+
+### Customization
+Visit the Settings page to customize:
+- Notification preferences
+- Theme selection
+- Default time estimates
+- Data export/import
+
+## 📁 Project Structure
+
+```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # shadcn/ui components
+│   ├── AddTaskForm.tsx  # Task creation form
+│   ├── Navigation.tsx   # App navigation
+│   ├── TaskBoard.tsx    # Task display board
+│   ├── TaskCard.tsx     # Individual task component
+│   └── TimeFilter.tsx   # Time filtering controls
+├── pages/               # Page components
+│   ├── Index.tsx        # Main tasks page
+│   ├── About.tsx        # About page
+│   ├── Settings.tsx     # Settings page
+│   └── NotFound.tsx     # 404 error page
+├── types/               # TypeScript type definitions
+│   └── task.ts          # Task-related types
+└── App.tsx              # Main app component
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Using Lovable Platform
+1. Click the "Publish" button in the top right of the Lovable editor
+2. Your app will be deployed to a Lovable subdomain
+3. Optionally connect a custom domain in Project Settings
 
-**Use GitHub Codespaces**
+### Manual Deployment
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. **Deploy the `dist` folder** to your preferred hosting platform:
+   - Vercel
+   - Netlify
+   - AWS S3
+   - GitHub Pages
 
-## What technologies are used for this project?
+## 🤝 Contributing
 
-This project is built with:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 License
 
-## How can I deploy this project?
+This project is open source and available under the [MIT License](LICENSE).
 
-Simply open [Lovable](https://lovable.dev/projects/4a04ab53-ea5f-451f-a4ce-8bfcef813fd3) and click on Share -> Publish.
+## 🌟 Acknowledgments
 
-## Can I connect a custom domain to my Lovable project?
+- Mountain landscape photo by [Unsplash](https://unsplash.com)
+- UI components powered by [shadcn/ui](https://ui.shadcn.com)
+- Icons by [Lucide](https://lucide.dev)
+- Built with [Lovable](https://lovable.dev)
 
-Yes, you can!
+## 📧 Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For support, questions, or feedback:
+- Create an issue in this repository
+- Visit [Lovable Documentation](https://docs.lovable.dev)
+- Join the [Lovable Discord Community](https://discord.gg/lovable)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**Made with ❤️ using Lovable - The AI-powered web development platform**
