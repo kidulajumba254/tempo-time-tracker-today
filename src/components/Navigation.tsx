@@ -1,13 +1,14 @@
 
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import { Home, Info, Settings, CheckSquare } from 'lucide-react';
+import { Home, Info, Settings, CheckSquare, FolderKanban } from 'lucide-react';
 
 const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
     { path: '/', label: 'Tasks', icon: CheckSquare },
+    { path: '/projects', label: 'Projects', icon: FolderKanban },
     { path: '/about', label: 'About', icon: Info },
     { path: '/settings', label: 'Settings', icon: Settings },
   ];
