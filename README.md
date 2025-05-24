@@ -22,14 +22,17 @@ A modern, prioritized to-do list application built with React, TypeScript, and T
 ### 🎨 Modern Interface
 - Beautiful mountain landscape background
   ![image](https://github.com/user-attachments/assets/4af2f9cf-7255-4fe7-acb4-23d3be4cf903)
-
 - Glass-morphism design elements
 - Responsive layout for all devices
 - Smooth animations and transitions
 
 ### 📱 Multi-Page Application
 - **Tasks**: Main task management interface
+- ![image](https://github.com/user-attachments/assets/a590d399-67de-40f2-a402-ad713e5e089d)
+
 - **About**: Learn about TaskFlow features
+- ![image](https://github.com/user-attachments/assets/088d9583-fdd5-440b-bd4c-7082b88fb184)
+
 - **Settings**: Customize your experience
 
 ## 🚀 Getting Started
