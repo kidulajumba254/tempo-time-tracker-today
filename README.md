@@ -11,6 +11,8 @@ A modern, prioritized to-do list application built with React, TypeScript, and T
 - **Urgent**: Tasks that must be completed today
 - **Important**: Tasks for the next 2-3 days  
 - **Long-term**: Upcoming deadlines and future tasks
+- ![image](https://github.com/user-attachments/assets/ba749927-9238-40d3-a575-422be3046e28)
+
 
 ### ⏰ Time Management
 - Time estimates for each task (in minutes)
@@ -19,6 +21,8 @@ A modern, prioritized to-do list application built with React, TypeScript, and T
 
 ### 🎨 Modern Interface
 - Beautiful mountain landscape background
+  ![image](https://github.com/user-attachments/assets/4af2f9cf-7255-4fe7-acb4-23d3be4cf903)
+
 - Glass-morphism design elements
 - Responsive layout for all devices
 - Smooth animations and transitions
@@ -130,12 +134,6 @@ src/
 └── App.tsx              # Main app component
 ```
 
-## 🚀 Deployment
-
-### Using Lovable Platform
-1. Click the "Publish" button in the top right of the Lovable editor
-2. Your app will be deployed to a Lovable subdomain
-3. Optionally connect a custom domain in Project Settings
 
 ### Manual Deployment
 1. **Build the project**
@@ -149,31 +147,17 @@ src/
    - AWS S3
    - GitHub Pages
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🌟 Acknowledgments
 
-- Mountain landscape photo by [Unsplash](https://unsplash.com)
-- UI components powered by [shadcn/ui](https://ui.shadcn.com)
-- Icons by [Lucide](https://lucide.dev)
-- Built with [Lovable](https://lovable.dev)
 
 ## 📧 Support
 
 For support, questions, or feedback:
-- Create an issue in this repository
-- Visit [Lovable Documentation](https://docs.lovable.dev)
-- Join the [Lovable Discord Community](https://discord.gg/lovable)
+Email me: kidulajesse@gmail.com
+
 
 ---
 
